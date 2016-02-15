@@ -7,12 +7,12 @@ class AppKernel extends Kernel
     {
         $bundles = array(
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
-            new Symfony\Bundle\SecurityBundle\SecurityBundle(),
+            // new Symfony\Bundle\SecurityBundle\SecurityBundle(),
             new Symfony\Bundle\TwigBundle\TwigBundle(),
             // new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             // new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             // new JMS\SerializerBundle\JMSSerializerBundle(),
-            // new laul\MyTestBundle\laulMyTestBundle(),
+             new laul\MyTestBundle\laulMyTestBundle(),
         );
         return $bundles;
     }

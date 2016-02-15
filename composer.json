@@ -19,7 +19,7 @@
     "suggest": {
     },
     "autoload": {
-        "psr-0": { "Ehann\\MyTestBundle": "" }
+        "psr-0": { "laul\\MyTestBundle": "" }
     },
     "target-dir": "laul/MyTestBundle",
     "extra": {
