@@ -12,7 +12,7 @@ class AppKernel extends Kernel
             // new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             // new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             // new JMS\SerializerBundle\JMSSerializerBundle(),
-            new laul\MyTestBundle\laulMyTestBundle(),
+            // new laul\MyTestBundle\laulMyTestBundle(),
         );
         return $bundles;
     }
