@@ -6,13 +6,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "laul",
+            "name": "laul"
         }
     ],
     "require": {
         "symfony/twig-bundle": "~2.4",
         "doctrine/doctrine-bundle": "~1.2",
-        "sensio/framework-extra-bundle": "~3.0",
+        "sensio/framework-extra-bundle": "~3.0"
     },
     "require-dev": {
     },
