@@ -2,11 +2,11 @@
 
 <phpunit bootstrap="./Tests/bootstrap.php" colors="true">
 
-<!--     <testsuites>
+    <testsuites>
         <testsuite name="App Bundle test suite">
             <directory suffix="Test.php">./MyTestBundle</directory>
         </testsuite>
-    </testsuites> -->
+    </testsuites>
     <!-- Quels fichiers sont concernés par l'évaluation du code coverage -->
     <filter>
         <whitelist>

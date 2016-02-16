@@ -10,9 +10,9 @@
         }
     ],
     "require": {
-        "symfony/twig-bundle": "~2.4",
-        "doctrine/doctrine-bundle": "~1.2",
-        "sensio/framework-extra-bundle": "~3.0"
+        "symfony/framework-bundle": "~2.3",
+        "symfony/twig-bundle": "~2.3",
+        "symfony/validator": "2.6.*@dev"
     },
     "require-dev": {
     },
