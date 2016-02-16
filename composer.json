@@ -1,31 +1,36 @@
 {
-    "name": "laul/My Test Bundle",
-    "description": "test",
-    "keywords": ["rest","controllers","doctrine"],
-    "type": "symfony-bundle",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "laul"
-        }
-    ],
-    "require": {
-      "php": ">=5.3.9",
-      "symfony/symfony": "2.*",
-      "doctrine/orm": "^2.4.8"
-    },
-    "require-dev": {
-    },
-    "suggest": {
-    },
-    "autoload": {
-        "psr-0": { "laul\\MyTestBundle": "" }
-    },
-    "target-dir": "laul/MyTestBundle",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.0.x-dev"
-        }
-    },
-    "minimum-stability": "dev"
+  "name": "laul/My Test Bundle",
+  "description": "test",
+  "keywords": [
+    "rest",
+    "controllers",
+    "doctrine"
+  ],
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "laul"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.9",
+    "symfony/symfony": "2.*",
+    "doctrine/orm": "^2.4.8"
+  },
+  "require-dev": {
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-0": {"laul\\MyTestBundle": ""}
+  },
+  "target-dir": "laul/MyTestBundle"
+  //,
+  //    "extra": {
+  //        "branch-alias": {
+  //            "dev-master": "0.0.x-dev"
+  //        }
+  //    },
+  //    "minimum-stability": "dev"
 }
