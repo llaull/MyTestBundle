@@ -29,5 +29,5 @@ install:
   - composer update --prefer-source $COMPOSER_FLAGS
 
 script:
-  - phpunit -c app/
+  - phpunit -c 
   - phpunit --coverage-text
