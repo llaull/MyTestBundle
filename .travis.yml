@@ -1,7 +1,7 @@
 language: php
 
 php:
-    - 5.5
+#    - 5.5
     # - 5.6
 
 # sudo: false
@@ -29,5 +29,5 @@ install:
   - composer update --prefer-source $COMPOSER_FLAGS
 
 script:
-  - phpunit -c 
+  - phpunit
   - phpunit --coverage-text
