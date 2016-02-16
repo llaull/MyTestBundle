@@ -1,4 +1,2 @@
 parameters:
     kernel.secret: ThisIsVerySecret!
-
-framework: test: ~
