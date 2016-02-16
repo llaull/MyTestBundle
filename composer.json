@@ -26,11 +26,4 @@
     "psr-0": {"laul\\MyTestBundle": ""}
   },
   "target-dir": "laul/MyTestBundle"
-  //,
-  //    "extra": {
-  //        "branch-alias": {
-  //            "dev-master": "0.0.x-dev"
-  //        }
-  //    },
-  //    "minimum-stability": "dev"
 }
