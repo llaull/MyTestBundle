@@ -1,7 +1,9 @@
 parameters:
     kernel.secret: ThisIsVerySecret!
 
- extensions:
+framework: test: ~
+
+extensions:
     Behat\Symfony2Extension:
       kernel:
         env: "test"
